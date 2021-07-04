@@ -1,0 +1,81 @@
+.body{
+    width: 80%;
+    height: auto;
+    margin: auto;
+    margin-top: 50px;
+}
+
+.x{
+    /* margin: 20px; */
+    /* border: black 1px solid; */
+    padding: 5px;
+    /* border-radius: 50%; */
+    width: max-content;
+    cursor: pointer;
+}
+
+.que{
+    width: 80%;
+    height: auto;
+    border: red 1px solid;
+    margin: 10px auto;
+    display: flex;
+    justify-content: space-around;
+    font-size: 20px;
+    padding: 20px;
+}
+
+.add-queue{
+    border: black 1px solid;
+    width: max-content;
+    height: auto;
+    padding: 10px;
+    margin: 10px auto;
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+}
+.add-queue h5{
+    margin: 5px;
+}
+.add-queue button , input{
+    width: max-content;
+    margin: 10px auto;
+    font-size: 20px;
+}
+
+.add-queue-button{
+    text-align: center;
+    font-size: 20px;
+}
+
+.add-queue-button:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.list-queue{
+    margin-top: 20px;
+}
+
+table, th, td {
+    border: 1px solid black;
+    text-align: center;
+    cursor: pointer;
+  }
+
+  table {
+    width: 100%;
+  }
+
+  th{
+      padding: 10px;
+  }
+  td{
+      padding: 20px;
+  }
+
+  .list-q:hover{
+      background: black;
+      color: white;
+  }
